@@ -1,0 +1,195 @@
+    1  yum install git -y
+    2  which git
+    3  git --version
+    4  git config --global user.name "sai"
+    5  git config --global user.email "prasanna@gmail.com"
+    6  git config --list
+    7  git config --global user.email "sai@gmail.com"
+    8  git config --list
+    9  mkdir mumbaigit
+   10  ls
+   11  cd mumbaigit/
+   12  git init
+   13  vi myfile
+   14  ls
+   15  ls -a
+   16  git status
+   17  git add myfile
+   18  git status
+   19  gitcommit -m "first line"
+   20  git commit -m "first line"
+   21  git status
+   22  git log
+   23  git show 4dd651b68f50a28cf5a127868076c9c05795274c
+   24  git remote add origin https://github.com/prasannabogineni/centralgit.git
+   25  git remote -v
+   26  git branch
+   27  git branch -M main
+   28  git push -u origin main
+   29  ls
+   30  vi myfile 
+   31  git status
+   32  git add .
+   33  git status
+   34  git commit -m "second commit"
+   35  git status
+   36  git log
+   37  git show 727a7205642a040610a63db8b3f04cf10c2f229c 
+   38  cat myfile 
+   39  git push origin main
+   40  cat myfile 
+   41  git log
+   42  git pull origin main
+   43  git log
+   44  git show 6d3dc52f0f5e77ff8913b88d9e47cf96b232611d 
+   45  vi myfile 
+   46  git status
+   47  git add .
+   48  git commit -m "fourth commit"
+   49  git push origin main
+   50  cat myfile 
+   51  history
+   52  ls
+   53  cd mumbaigit/
+   54  ls
+   55  vi myfile 
+   56  git status
+   57  git add .
+   58  git status
+   59  git commit -m "dec 12th by sai_1"
+   60  git status
+   61  git log
+   62  git show 9fa1edb0f5fbc9bce50dd2b7520eebe93d091f42
+   63  git push origin main
+   64  git --config list
+   65  git config list
+   66  git config --list
+   67  git config --global user.name "saidemy hyd"
+   68  git config --list
+   69  ls
+   70  vi myfile 
+   71  git status
+   72  git add.
+   73  git status
+   74  git add .
+   75  git status
+   76  git commit -m "dec 12th Sai_2"
+   77  git status
+   78  git push origin main
+   79  ls
+   80  vi .gitignore
+   81  git add .gitignore
+   82  git commit -m ".gitognore"
+   83  ls
+   84  touch 1.class 2.class 1.java 1.python sai.txt
+   85  git status
+   86  git add .
+   87  git status
+   88  git commit -m "my empty files"
+   89  git log
+   90  git show 75a4eeb56cf768079977cf0551942da3392670c8
+   91  history
+   92  git log -2
+   93  git log -1
+   94  git log --oneline
+   95  git log --grep "3rd"
+   96  git branch
+   97  ls
+   98  git branch new
+   99  git branch 
+  100  git checkout new
+  101  git branch 
+  102  git log --oneline
+  103  ls
+  104  git branch
+  105  ls
+  106  vi file1
+  107  git add .
+  108  git commit -m "file1"
+  109  ls
+  110  git log --oneline
+  111  git checkout main
+  112  git branch
+  113  ls
+  114  git log --oneline
+  115  git checkout new
+  116  git branch
+  117  ls
+  118  git log --oneline
+  119  vi file2
+  120  ls
+  121  git checkout main
+  122  ls
+  123  git branch
+  124  ls
+  125  git checkout new
+  126  git branch
+  127  ls
+  128  git add .
+  129  git commit -m "file2"
+  130  git checkout main
+  131  ls
+  132  git branch
+  133  ls
+  134  git log --oneline
+  135  git merge new
+  136  ls
+  137  git push origin main
+  138  git log --oneline
+  139  ls
+  140  git branch
+  141  vi file3
+  142  git add .
+  143  git commit -m "blue"
+  144  git checkout new
+  145  vi file3
+  146  git add .
+  147  git commit -m "red"
+  148  ls
+  149  git branch
+  150  git log --oneline
+  151  git checkout main
+  152  git merge new
+  153  git branch
+  154  vi file3
+  155  git add.
+  156  git commit -m "fixed conflict"
+  157  cat file3
+  158  git merge new
+  159  git add .
+  160  git commit -m "fixed conflict"
+  161  history
+  162  ls
+  163  vi file4
+  164  git add .
+  165  git status
+  166  cat file4
+  167  git reset .
+  168  git status
+  169  cat file4
+  170  git add .
+  171  git commit -m "myfile4 code"
+  172  cat file4
+  173  git log --oneline
+  174  git revert 0db51c1
+  175  ls
+  176  git status
+  177  git log --oneline
+  178  git show 513a06b
+  179  touch prasannafile{1..10}
+  180  ls
+  181  git status
+  182  git clean -n
+  183  git clean -f
+  184  ls
+  185  git log --oneline
+  186  git tag -a imp -m "blue commit" f5804ff
+  187  git tag
+  188  git tag -d imp
+  189  git tag
+  190  git tag -a f1 -m "file1" 96423d6
+  191  git log --oneline
+  192  git tag
+  193  history > git commands
+  194  history > git commands.txt
+  195  history > gitcommands.txt
